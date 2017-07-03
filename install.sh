@@ -14,4 +14,3 @@ for file in *.rules; do
 done
 
 udevadm control --reload-rules && udevadm trigger
-
