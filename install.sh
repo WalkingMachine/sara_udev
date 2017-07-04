@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rules="rules"
-rules_d="/lib/udev/rules.d"
+rules_d="/etc/udev/rules.d"
 
 cd $rules
 for file in *.rules; do
