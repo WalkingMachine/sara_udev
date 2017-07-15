@@ -10,7 +10,7 @@ fi
 
 cd $rules
 for file in *.rules; do
-   ln -s $file $rules_d/$file
+   cp $file $rules_d/$file
 done
 
 udevadm control --reload-rules && udevadm trigger
