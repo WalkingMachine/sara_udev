@@ -1,1 +1,1 @@
-SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0043", ATTRS{SerialNumber}=="220", SYMLINK+="estop"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0043", ATTRS{serial}=="74132343430351219001", SYMLINK+="estop"
