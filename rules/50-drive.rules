@@ -1,1 +1,1 @@
-SUBSYSTEM=="tty", ATTRS{idVendor}=="20d2", ATTRS{idProduct}=="5740", ATTRS{serial}=="MDC14XX", SYMLINK+="drive%n"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="20d2", ATTRS{idProduct}=="5740", ATTRS{serial}=="MDC14XX", SYMLINK+="SARA/motors/drive%n"

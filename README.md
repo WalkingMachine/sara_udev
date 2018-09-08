@@ -11,6 +11,29 @@ To insall all udev in `one shot`:
 ```
 sudo ./install.sh
 ```
+
+# Udevs list
+Drive: SARA/motors/drive%n  
+Dynamixel: SARA/motors/dynamixel  
+Kinova: SARA/motors/kinova  
+IMU: SARA/sensors/imu  
+Laser: SARA/sensors/laser_base  
+Gripper: SARA/gripper/robotiq  
+Arduino: SARA/arduino/...  
+
+SARA
+  * motors
+    * drive %n
+    * dynamixel
+    * kinova
+  * sensors
+    * imu
+    * laser_base
+  * gripper
+    * robotiq
+  * arduino
+    * ...
+
 #Arduinos
 Plug the arduino through a usb port.
 Run command : dmesg

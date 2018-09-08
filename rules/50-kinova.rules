@@ -1,1 +1,1 @@
-ATTRS{idVendor}=="22cd", ATTRS{idProduct}=="0000", SYMLINK+="kinova"
+ATTRS{idVendor}=="22cd", ATTRS{idProduct}=="0000", SYMLINK+="SARA/motors/kinova"
