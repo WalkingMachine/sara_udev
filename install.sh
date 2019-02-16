@@ -8,9 +8,10 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
-cd $rules
-for file in *.rules; do
-   cp $file $rules_d/$file
-done
+# Remove the previous rules
+mv $rules_d ".etc_udev_rules.bak"
+
+# Link the new rules
+ln -sd $rules $rules_d
 
 udevadm control --reload-rules && udevadm trigger
