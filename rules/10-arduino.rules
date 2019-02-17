@@ -1,2 +1,2 @@
-#Arduino UNO
-SUBSYSTEMS=="usb", ATTRS{idProduct}=="0043", ATTRS{idVendor}=="2341", ATTRS{serial}=="55736303631351A09072", SYMLINK+="SARA/arduino/device%n"
+
+SUBSYSTEMS=="usb", ATTRS{idProduct}=="0043", ATTRS{idVendor}=="2341", ATTRS{serial}=="55736303631351A09072", SYMLINK+="SARA/arduinos/device%n"
