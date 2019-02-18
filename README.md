@@ -16,7 +16,8 @@ Just in case, a backup folder will be created in **./.etc_udev_rules.bak**
 # Udevs list
 SARA
   * motors
-    * drive %n
+    * roboteq
+      * drive_%n
     * dynamixel
     * kinova
   * sensors
@@ -25,7 +26,7 @@ SARA
   * gripper
     * robotiq
   * arduino
-    * ...
+    * device_%n
 
 #References
 http://www.joakimlinde.se/microcontrollers/arduino/avr/udev.php
