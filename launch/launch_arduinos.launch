@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="arduino_launcher" pkg="sara_udev" type="arduino_launcher.py" output="screen" >
+  </node>
+
+</launch>
