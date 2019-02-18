@@ -5,22 +5,15 @@ udev rules for S.A.R.A.
 Udev help remaping all USB device for [SARA](walkingmachine.ca).
 The install create a soft link in the folder `/lib/udev/rules.d/`
 
-# Usage
-**IT MUST BE RUN AS ROOT**
-To insall all udev in `one shot`:
+# Installation
 ```
 sudo ./install.sh
 ```
+This script will create a softlink from **/etc/udev/rules.d** to **./rules.**
+
+Just in case, a backup folder will be created in **./.etc_udev_rules.bak**
 
 # Udevs list
-Drive: SARA/motors/drive%n  
-Dynamixel: SARA/motors/dynamixel  
-Kinova: SARA/motors/kinova  
-IMU: SARA/sensors/imu  
-Laser: SARA/sensors/laser_base  
-Gripper: SARA/gripper/robotiq  
-Arduino: SARA/arduino/...  
-
 SARA
   * motors
     * drive %n
@@ -34,11 +27,5 @@ SARA
   * arduino
     * ...
 
-#Arduinos
-Plug the arduino through a usb port.
-Run command : dmesg
-Get the serial number of the arduino.
-Got to the arduino udev file.
-Add new line with the serial number and set the name.
-Install the udevs with sudo ./install.sh
-Test with: ls -l /dev/Your_arduino_name
+#References
+http://www.joakimlinde.se/microcontrollers/arduino/avr/udev.php
