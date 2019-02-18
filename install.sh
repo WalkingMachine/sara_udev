@@ -18,3 +18,4 @@ mv $rules_d ".etc_udev_rules.bak"
 ln -ds $rules $rules_d
 
 udevadm control --reload-rules && udevadm trigger
+echo "A softlink to $rules has been created at $rules_d. \nThe previous rules have been backed up at .etc_udev_rules.bak"
