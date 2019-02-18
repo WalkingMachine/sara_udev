@@ -2,9 +2,7 @@
 import roslaunch
 import rospy
 from os import listdir
-#from rospy import is_shutdown, sleep
 
-#launchPath = '/home/philippe/sara_ws/src/sara_udev/launch/launch_arduino.launch'
 package = 'rosserial_python'
 executable = 'serial_node.py'
 devPath = '/dev/SARA/arduinos/'
