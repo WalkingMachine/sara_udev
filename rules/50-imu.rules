@@ -1,1 +1,3 @@
-SUBSYSTEM=="tty", ATTRS{idVendor}=="2639", ATTRS{idProduct}=="0003", ATTRS{serial}=="03600162", SYMLINK+="sensor/imu"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2639", ATTRS{idProduct}=="0003", ATTRS{serial}=="03600162", SYMLINK+="SARA/sensors/imu"
+
