@@ -1,0 +1,4 @@
+
+SUBSYSTEMS=="usb", ATTR{manufacturer}=="Kinova inc.", ATTR{product}=="Kinova Robotic Platform", SYMLINK+="SARA/motors/kinova" MODE="0777"
+
+
