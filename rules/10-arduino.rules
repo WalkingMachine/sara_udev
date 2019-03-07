@@ -1,6 +1,7 @@
 
 SUBSYSTEMS=="usb", KERNEL=="ttyACM*" ,DRIVERS=="usb", ATTRS{idProduct}=="0043", ATTRS{idVendor}=="2341", SYMLINK+="SARA/arduinos/device_1_%n"
-SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", DRIVERS=="usb", ATTRS{idProduct}=="7523", ATTRS{idVendor}=="1a86", SYMLINK+="SARA/arduinos/device_2_%n"
+SUBSYSTEMS=="usb", KERNEL=="ttyACM*" ,DRIVERS=="usb", ATTRS{idProduct}=="0010", ATTRS{idVendor}=="2341", SYMLINK+="SARA/arduinos/device_2_%n"
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", DRIVERS=="usb", ATTRS{idProduct}=="7523", ATTRS{idVendor}=="1a86", SYMLINK+="SARA/arduinos/device_3_%n"
 
 #SUBSYSTEMS=="usb", DRIVERS=="usb", ATTRS{idProduct}=="0002", ATTRS{idVendor}=="1d6b", SYMLINK+="SARA/arduinos/device_$attr{serial}"
 
